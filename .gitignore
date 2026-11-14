@@ -1,0 +1,33 @@
+# Gradle / Kotlin
+.gradle/
+.kotlin/
+build/
+local.properties
+
+# Android Studio / IntelliJ
+*.iml
+/captures
+.externalNativeBuild
+.cxx
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/appInsightsSettings.xml
+/.idea/shelf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Xcode / iOS
+**/xcuserdata/
+DerivedData/
+.swiftpm/
+*.xcappdata
+
+# oops we dont want this yuck
+CLAUDE.md

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Roadmap glyph: a road from today's start node up to the spark (the learned skill). -->
+    <path
+        android:name="road"
+        android:pathData="M38,76C52,76 60,68 54,58C48,48 50,43 60,42"
+        android:strokeColor="@color/roadmap_icon_road"
+        android:strokeWidth="8"
+        android:strokeLineCap="round" />
+    <path
+        android:name="dots"
+        android:pathData="M43.27,75.42a0.9,0.9 0,1 0,1.8,0a0.9,0.9 0,1 0,-1.8,0M49.11,73.40a0.9,0.9 0,1 0,1.8,0a0.9,0.9 0,1 0,-1.8,0M53.70,69.34a0.9,0.9 0,1 0,1.8,0a0.9,0.9 0,1 0,-1.8,0M55.05,63.40a0.9,0.9 0,1 0,1.8,0a0.9,0.9 0,1 0,-1.8,0M52.89,57.64a0.9,0.9 0,1 0,1.8,0a0.9,0.9 0,1 0,-1.8,0M50.28,52.04a0.9,0.9 0,1 0,1.8,0a0.9,0.9 0,1 0,-1.8,0M50.38,46.01a0.9,0.9 0,1 0,1.8,0a0.9,0.9 0,1 0,-1.8,0M55.39,42.65a0.9,0.9 0,1 0,1.8,0a0.9,0.9 0,1 0,-1.8,0"
+        android:fillColor="@color/roadmap_icon_background" />
+    <path
+        android:name="start"
+        android:pathData="M32,76a6,6 0,1 0,12,0a6,6 0,1 0,-12,0"
+        android:fillColor="@color/roadmap_icon_road" />
+    <path
+        android:name="spark"
+        android:pathData="M70,29c0.47,5.53 3.47,8.53 9,9c-5.53,0.47 -8.53,3.47 -9,9c-0.47,-5.53 -3.47,-8.53 -9,-9c5.53,-0.47 8.53,-3.47 9,-9z"
+        android:fillColor="@color/roadmap_icon_spark" />
+</vector>

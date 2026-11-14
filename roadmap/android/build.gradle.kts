@@ -1,0 +1,25 @@
+plugins {
+    id("portfolio.android.application")
+    id("portfolio.android.compose")
+    alias(libs.plugins.kotlin.serialization)
+}
+
+android {
+    namespace = "com.rsalanga.roadmap"
+    defaultConfig {
+        applicationId = "com.rsalanga.roadmap"
+        versionCode = 1
+        versionName = "1.0"
+    }
+}
+
+dependencies {
+    implementation(project(":roadmap:shared:domain"))
+    implementation(project(":roadmap:shared:data"))
+    implementation(libs.androidx.navigation3.runtime)
+    implementation(libs.androidx.navigation3.ui)
+    implementation(libs.androidx.core.splashscreen)
+    implementation(platform(libs.koin.bom))
+    implementation(libs.koin.android)
+    implementation(libs.koin.androidx.compose)
+}

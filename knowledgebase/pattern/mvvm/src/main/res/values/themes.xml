@@ -1,0 +1,4 @@
+<resources>
+    <!-- Base application theme. Compose draws everything; this only sets the window. -->
+    <style name="Theme.Portfolio" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

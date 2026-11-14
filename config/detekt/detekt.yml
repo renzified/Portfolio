@@ -1,0 +1,29 @@
+# Overrides on top of detekt's default config (buildUponDefaultConfig = true).
+
+naming:
+  FunctionNaming:
+    ignoreAnnotated: ['Composable']
+    # Defaults plus the AGP KMP test source sets (androidHostTest/androidDeviceTest).
+    excludes: ['**/test/**', '**/androidTest/**', '**/commonTest/**', '**/jvmTest/**', '**/androidUnitTest/**', '**/androidInstrumentedTest/**', '**/jsTest/**', '**/iosTest/**', '**/androidHostTest/**', '**/androidDeviceTest/**']
+  TopLevelPropertyNaming:
+    constantPattern: '[A-Z][A-Za-z0-9_]*'
+  # Compose theme files (Color.kt, Type.kt) commonly hold a differently named object.
+  MatchingDeclarationName:
+    active: false
+
+complexity:
+  LongParameterList:
+    ignoreDefaultParameters: true
+  LongMethod:
+    ignoreAnnotated: ['Composable']
+
+style:
+  MagicNumber:
+    ignorePropertyDeclaration: true
+    ignoreCompanionObjectPropertyDeclaration: true
+    ignoreAnnotated: ['Composable', 'Preview']
+    excludes: ['**/test/**', '**/androidTest/**', '**/commonTest/**', '**/jvmTest/**', '**/androidUnitTest/**', '**/androidInstrumentedTest/**', '**/jsTest/**', '**/iosTest/**', '**/androidHostTest/**', '**/androidDeviceTest/**', '**/*.kts']
+  UnusedPrivateFunction:
+    ignoreAnnotated: ['Preview']
+  ForbiddenComment:
+    active: false
