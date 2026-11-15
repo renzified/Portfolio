@@ -1,7 +1,7 @@
 plugins {
     id("portfolio.android.application")
     id("portfolio.android.compose")
-    alias(libs.plugins.kotlin.serialization)
+    id("portfolio.android.feature")
 }
 
 android {
@@ -16,10 +16,4 @@ android {
 dependencies {
     implementation(project(":roadmap:shared:domain"))
     implementation(project(":roadmap:shared:data"))
-    implementation(libs.androidx.navigation3.runtime)
-    implementation(libs.androidx.navigation3.ui)
-    implementation(libs.androidx.core.splashscreen)
-    implementation(platform(libs.koin.bom))
-    implementation(libs.koin.android)
-    implementation(libs.koin.androidx.compose)
 }
