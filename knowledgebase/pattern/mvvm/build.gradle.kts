@@ -1,6 +1,5 @@
 plugins {
     id("portfolio.android.application")
-    id("portfolio.android.compose")
     id("portfolio.android.feature")
 }
 
