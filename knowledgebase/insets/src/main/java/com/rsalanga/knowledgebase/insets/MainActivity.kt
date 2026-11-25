@@ -16,7 +16,7 @@ import androidx.compose.ui.graphics.toArgb
 class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+        // TODO: why should we call it before super.onCreate? is there a reason? some calls it before some calls it after i dont know whats the reason
         enableEdgeToEdge(
             statusBarStyle = SystemBarStyle.auto(
                 lightScrim = Color.Transparent.toArgb(),
@@ -32,6 +32,8 @@ class MainActivity : ComponentActivity() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
             window.isNavigationBarContrastEnforced = false
         }
+
+        super.onCreate(savedInstanceState)
 
         setContent {
             Box(

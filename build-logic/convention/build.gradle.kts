@@ -25,6 +25,10 @@ gradlePlugin {
             id = "portfolio.android.compose"
             implementationClass = "com.rsalanga.portfolio.AndroidComposeConventionPlugin"
         }
+        register("androidFeature") {
+            id = "portfolio.android.feature"
+            implementationClass = "com.rsalanga.portfolio.AndroidFeatureConventionPlugin"
+        }
         register("kmpLibrary") {
             id = "portfolio.kmp.library"
             implementationClass = "com.rsalanga.portfolio.KmpLibraryConventionPlugin"
