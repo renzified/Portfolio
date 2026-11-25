@@ -26,7 +26,10 @@
             <option value="$PROJECT_DIR$/knowledgebase" />
             <option value="$PROJECT_DIR$/knowledgebase/insets" />
             <option value="$PROJECT_DIR$/knowledgebase/pattern" />
-            <option value="$PROJECT_DIR$/knowledgebase/pattern/mvvm" />
+            <option value="$PROJECT_DIR$/knowledgebase/pattern/compose" />
+            <option value="$PROJECT_DIR$/knowledgebase/pattern/compose/mvvm" />
+            <option value="$PROJECT_DIR$/knowledgebase/pattern/fragment" />
+            <option value="$PROJECT_DIR$/knowledgebase/pattern/fragment/mvvm" />
             <option value="$PROJECT_DIR$/mathletic" />
             <option value="$PROJECT_DIR$/practice" />
             <option value="$PROJECT_DIR$/practice/mvvm" />

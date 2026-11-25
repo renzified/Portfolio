@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    The app shell (FMVVM-F4): one NavHostFragment for every destination, plus a ComposeView that
+    hosts app-level messages (FMVVM-N6). The graph is set in code (MainActivity), from the
+    Kotlin DSL with type-safe keys, so there is no app:navGraph here.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/nav_host"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true" />
+
+    <!-- wrap_content: it covers nothing until a snackbar is showing. -->
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/message_host"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" />
+</FrameLayout>

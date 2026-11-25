@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Fragment MVVM rules</string>
+
+    <!-- FMVVM-M5: ViewModels expose these as UiText.Res; the UI resolves them. -->
+    <string name="error_generic">Something went wrong.</string>
+    <string name="refresh_failed">Refresh failed. Check your connection.</string>
+    <string name="task_deleted">Task deleted</string>
+    <string name="task_saved">Task saved</string>
+    <string name="save_failed">Couldn\'t save. Try again.</string>
+    <string name="camera_denied">Camera permission denied</string>
+    <string name="promo_invalid">That promo code isn\'t valid.</string>
+    <string name="profile_load_failed">Couldn\'t load your profile.</string>
+    <string name="search_failed">Search failed.</string>
+    <string name="invalid_email">Enter a valid email address.</string>
+    <string name="signup_failed">Sign-up failed. That email may already be taken.</string>
+    <string name="signed_up">Account created</string>
+    <string name="order_placed">Order placed</string>
+    <string name="note_saved">Note saved</string>
+    <string name="sync_finished">Background sync finished</string>
+    <string name="session_expired">Your session expired. Sign in again.</string>
+    <string name="export_failed">Export failed.</string>
+    <string name="rename_failed">Name can\'t be empty.</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <!--
+        Base application theme. Compose draws every screen; this only styles the window and the
+        platform dialog window used by DialogFragment destinations (FMVVM-V7).
+    -->
+    <style name="Theme.Portfolio" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
